@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Destination</title>
+
+    <style>
+
+    body {
+        background-color: rgb(56, 53, 53);
+    }
+        nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: rgb(100, 76, 124);
+}
+
+.logo {
+    color: rgb(212, 207, 199);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+
+}
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+     color: rgb(212, 207, 199);
+     text-decoration: none;
+     letter-spacing: 3px;
+     font-weight: bold;
+     font-size: 14px;
+}
+
+.hero img {
+    width: 100%;
+    height: 40vh;
+    object-fit: fill;
+}
+
+@keyframes typing { from { width: 0; } }
+@keyframes blink-caret { 50% { border-color: transparent; } }
+
+h1 { 
+    margin: auto;
+	font: bold 2em monospace;
+     font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    color: white;
+	border-right: .1em solid rgb(54, 52, 52);
+	width: calc(0.55em * 25); 
+	width: 25ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 4s steps(25, end),
+	           blink-caret .1s step-end infinite alternate;
+}
+
+.favorite-places {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    
+}
+
+.favorite-places img {
+   width:  60%;
+    object-fit: cover;
+    border-radius: 5px;
+   
+}
+
+.favorite-places li {
+    list-style: none;
+    margin: 0 2rem;
+}
+
+label {
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+    color: #2fc29d;
+    font-style: italic;
+}
+
+
+
+
+       
+    </style>
+</head>
+<body>
+      <nav>
+        <div class="logo">
+            Tourman
+        </div>
+        <ul class="nav-links">
+            <li><a href="">Explore</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Destination</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <img src="/images/paris.jpg" alt="" title="Paris">
+    </div>
+    <div>
+         <h1>My Favorite Destinations</h1>
+    </div>
+    <div>
+        <ul class="favorite-places">
+            <li>
+                 <img src="/images/paris.png" alt="image of paris">
+            <br/>
+            <label>Paris, France</label>
+            <p>Popularly known for the Eiffel Tower, the City of Light is a favorite to many. <span><a href="https://www.britannica.com/place/Paris" title="read more about paris">Read more</a></span></p>
+            
+            </li>
+            <li><img src="/images/london.png" alt="image of london">
+           <br/>
+            <label> London, United Kingdom</label>
+            <p>London is a world-class city, and once you enter this beautiful city, you will never want to leave. <span><a href="https://en.wikipedia.org/wiki/London" title="read more about london">Read more</a></span></p>
+            </li>
+            <li> <img src="/images/bali.png" alt="image of bali">
+           <br/>
+            <label> Bali, Indonesia</label>
+            <p>Bali means heaven, and this place proves that heaven exists on Earth. <span><a href="https://en.wikipedia.org/wiki/Bali" title="read more about bali">Read more</a></span></p>
+            </li>
+        </ul></div>
+        
+
+
+</body>
+</html>
+
+
